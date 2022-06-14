@@ -28,6 +28,7 @@ public class WebDriverManagerUsageWithChromeOptions {
 		// WebDriver driver = new ChromeDriver(options);
 		// Navigate to URL https://www.demoqa.com
 		driver.get("https:www.google.com");
+		System.out.println("Hello");
 		driver.quit();
 
 	}
